@@ -1,0 +1,19 @@
+.likeDiv > button {
+  height: 3em;
+  border-radius: 3px;
+  border: 1px solid rgba(0, 0, 0, 0.633);
+  box-shadow: 2px 3px  5px #00000045;
+}
+
+.likeDiv > button:hover {
+  background-color: aliceblue;
+}
+
+.likeDiv > button:active {
+  box-shadow: 1px 1.5px 5px #00000045;
+  background-color: rgb(218, 224, 229);
+}
+
+.liked {
+  background-color: rgba(108, 108, 245, 0.775);
+}

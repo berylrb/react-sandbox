@@ -1,0 +1,84 @@
+.counterDiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 25%;
+  margin: 10px 20px;
+  border: 1px solid rgba(0, 0, 0, 0.165);
+  padding: 15px 8px 25px 8px;
+  border-radius: 5px;
+}
+
+.buttonContainer,
+.addSubButtons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.buttonContainer {
+  flex-direction: column;
+}
+
+.buttonContainer>button,
+.addSubButtons>button {
+  margin: 5px;
+  box-shadow: 1px 2px 2px rgba(36, 36, 36, 0.54);
+  border-radius: 5px;
+  border: 1px solid rgba(0, 0, 0, 0.165);
+
+}
+
+.plusButton, .minusButton {
+  color: white;
+  width: 3em;
+  height: 2em;
+  font-size: .9em;
+  font-weight: 600;
+}
+
+.plusButton {
+  background-color: rgba(60, 152, 122, 0.584);
+}
+
+.plusButton:hover {
+  background-color: rgba(38, 94, 76, 0.584);
+}
+
+.plusButton:active {
+  background-color: rgb(60, 152, 121);
+  box-shadow: .5px 1px 1px rgba(36, 36, 36, 0.54);
+}
+
+.minusButton {
+  background-color: rgba(159, 88, 79, 0.584);
+}
+
+.minusButton:hover {
+  background-color: rgba(98, 57, 51, 0.584);
+}
+
+.minusButton:active {
+  background-color: rgb(159, 88, 79);
+  box-shadow: .5px 1px 1px rgba(36, 36, 36, 0.54);
+}
+
+.resetButton {
+  width: 6.8em;
+  padding: 2px 4px;
+  background-color: rgba(182, 158, 24, 0.677);
+  color: rgb(255, 255, 255);
+  font-weight: 400;
+  margin: 8px 0 3px 0 !important;
+}
+
+.resetButton:hover {
+  background-color: rgba(122, 106, 16, 0.677);
+}
+
+.resetButton:active {
+  background-color: rgb(199, 174, 29);
+  box-shadow: .5px 1px 1px rgba(36, 36, 36, 0.54);
+}
+
